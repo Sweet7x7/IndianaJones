@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архив Индианы Джонса | Полное досье 1938</title>
+    
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Special+Elite&family=Cinzel:wght@400;700;900&family=IM+Fell+English+SC&family=Uncial+Antiqua&family=MedievalSharp&family=Old+Standard+TT:wght@400;700&family=Eagle+Lake&family=Pirata+One&family=Metamorphous&family=New+Rocker&display=swap" rel="stylesheet">
+    
+    <!-- Иконки -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Фоновые элементы -->
+    <div class="paper-overlay"></div>
+    <div class="paper-stain stain-1"></div>
+    <div class="paper-stain stain-2"></div>
+    <div class="paper-stain stain-3"></div>
+    <div class="paper-stain stain-4"></div>
+    <div class="paper-stain stain-5"></div>
+
+    <!-- Навигация -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="logo-container">
+            <div class="logo-badge">
+                <i class="fas fa-compass" style="font-size: 38px; color: var(--leather-dark);"></i>
+            </div>
+            <div class="logo-text">
+                <div class="logo-name">INDIANA JONES</div>
+                <div class="logo-subtitle">Архив экспедиций 1935-1957</div>
+            </div>
+        </a>
+        
+        <div class="nav-links" id="navLinks">
+            <a href="#diary" class="nav-link">Дневник</a>
+            <a href="#films" class="nav-link">Фильмы</a>
+            <a href="#equipment" class="nav-link">Снаряжение</a>
+            <a href="#artifacts" class="nav-link">Артефакты</a>
+            <a href="#telegram" class="nav-link">Телеграмма</a>
+        </div>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Главная секция -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="classified-stamp">
+                <div class="stamp-content">СОВЕРШЕННО<br>СЕКРЕТНО</div>
+            </div>
+            
+            <h1 class="hero-title">АРХИВ<br>ИНДИАНЫ ДЖОНСА</h1>
+            <h2 class="hero-subtitle">Полное досье • 1938 год</h2>
+            
+            <p class="hero-description">
+                Этот архив содержит полную документацию экспедиций профессора Генри "Индианы" Джонса Младшего 
+                с 1935 по 1957 годы. Дневники, карты, отчёты о находках и секретные материалы, собранные 
+                за десятилетия поисков потерянных артефактов. Доступ ограничен уровнем "ИСКАТЕЛЬ".
+            </p>
+            
+            <div class="indiana-quote">
+                "Археология — это не поиск сокровищ. Это поиск фактов. Если вам нужны сокровища, 
+                идите в банк. Если вам нужны факты... добро пожаловать в ад."
+                <span class="indiana-quote-author">— Индиана Джонс</span>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="#diary" class="vintage-btn vintage-btn-primary">
+                    <i class="fas fa-book"></i>
+                    ЧИТАТЬ ДНЕВНИК
+                </a>
+                <a href="#equipment" class="vintage-btn vintage-btn-secondary">
+                    <i class="fas fa-hiking"></i>
+                    СНАРЯЖЕНИЕ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция личного дневника -->
+    <section class="diary-section" id="diary">
+        <div class="diary-container">
+            <div class="diary-header">
+                <h2 class="diary-title">Личный дневник</h2>
+                <div class="diary-subtitle">Секретные записи из экспедиций 1935-1957 гг.</div>
+            </div>
+
+            <div class="diary-entries" id="diaryEntries">
+                <!-- Записи будут загружены через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция фильмов -->
+    <section class="films-section" id="films">
+        <div class="section-header">
+            <h2 class="section-title">Кинематограф</h2>
+            <div class="section-subtitle">Художественные интерпретации моих приключений</div>
+        </div>
+
+        <div class="films-grid" id="filmsGrid">
+            <!-- Фильмы будут загружены через JavaScript -->
+        </div>
+
+        <!-- Цитата про фильмы -->
+        <div class="films-quote-container">
+            <div class="films-quote fade-in">
+                <p class="quote-text">
+                    Фильмы неплохие, но настоящая археология — это когда у тебя три дня болит спина от сырой гробницы,
+                    а не когда ты отпрыгиваешь от валуна под оркестр. Единственное, в чём они не соврали — так это в том,
+                    что все идиоты, лезущие за артефактами с плохими намерениями, в итоге получают по заслугам.
+                    Иногда даже от меня.
+                </p>
+                <div class="films-quote-author">— Индиана Джонс</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция снаряжения -->
+    <section class="equipment-section" id="equipment">
+        <div class="section-header">
+            <h2 class="section-title">Снаряжение</h2>
+            <div class="section-subtitle">Проверено в сотнях экспедиций и переделок</div>
+        </div>
+
+        <div class="films-grid" id="equipmentGrid">
+            <!-- Снаряжение будет загружено через JavaScript -->
+        </div>
+
+        <!-- Цитата про снаряжение -->
+        <div class="films-quote-container">
+            <div class="films-quote fade-in">
+                <p class="quote-text">
+                    Хорошее снаряжение не делает археолога, но плохое может его убить.
+                    Куртка должна защищать, кнут — держаться, а револьвер — стрелять.
+                    Но самое важное снаряжение всегда здесь — голова.
+                    Потому что никакая кожа не спасёт от идиотизма.
+                </p>
+                <div class="films-quote-author">— Индиана Джонс</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция артефактов -->
+    <section class="artifacts-section" id="artifacts">
+        <div class="section-header">
+            <h2 class="section-title">Каталог артефактов</h2>
+            <div class="section-subtitle">Найденные и... иногда возвращённые</div>
+        </div>
+
+        <div class="films-grid" id="artifactsGrid">
+            <!-- Артефакты будут загружены через JavaScript -->
+        </div>
+
+        <!-- Цитата про артефакты -->
+        <div class="films-quote-container">
+            <div class="films-quote fade-in">
+                <p class="quote-text">
+                    Музей — это могила для артефактов. Они лежат там, за стеклом, мёртвые и молчаливые.
+                    Но когда ты находишь их в дикой природе, они живые. Они дышат историей.
+                    Проблема в том, что некоторые истории лучше оставлять ненаписанными.
+                </p>
+                <div class="films-quote-author">— Индиана Джонс</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция телеграммы -->
+    <section class="telegram-section" id="telegram">
+        <div class="section-header">
+            <h2 class="section-title">Отправить телеграмму</h2>
+            <div class="section-subtitle">Свяжитесь с Индианой Джонсом через секретный канал</div>
+        </div>
+
+        <!-- Телеграмма -->
+        <div class="telegram-container fade-in">
+            <form id="telegramForm" action="https://formspree.io/f/mykglazy" method="POST" class="telegram-form">
+                <input type="hidden" name="_subject" value="📜 Телеграмма для Индианы Джонса">
+                <input type="hidden" name="_language" value="ru">
+                <input type="text" name="_gotcha" style="display:none">
+                
+                <div class="telegram-header">
+                    <div class="telegram-stamp">
+                        <div class="stamp-text">СРОЧНО</div>
+                    </div>
+                    <div class="telegram-info">
+                        <div class="telegram-title">ПОЛЕВАЯ ТЕЛЕГРАММА</div>
+                        <div class="telegram-subtitle">Маршалл-колледж • Экспедиционный отдел</div>
+                        <div class="telegram-date" id="currentDate">Дата: Загружается...</div>
+                        <div class="telegram-code">Код: IND-1938-TOP-SECRET</div>
+                    </div>
+                </div>
+
+                <div class="telegram-content">
+                    <div class="telegram-field">
+                        <label for="telegramFrom">
+                            <i class="fas fa-user"></i>
+                            ОТ КОГО:
+                        </label>
+                        <input type="text" 
+                               id="telegramFrom" 
+                               name="sender" 
+                               placeholder="Ваше имя или организация"
+                               required>
+                    </div>
+
+                    <div class="telegram-field">
+                        <label for="userEmail">
+                            <i class="fas fa-envelope"></i>
+                            ВАШ EMAIL:
+                        </label>
+                        <input type="email" 
+                               id="userEmail" 
+                               name="_replyto" 
+                               placeholder="ваш@email.com"
+                               required>
+                    </div>
+
+                    <div class="telegram-field">
+                        <label for="telegramTo">
+                            <i class="fas fa-map-marker-alt"></i>
+                            КОМУ:
+                        </label>
+                        <div class="readonly-field">Проф. Генри "Индиана" Джонс Мл.</div>
+                    </div>
+
+                    <div class="telegram-field">
+                        <label for="telegramSubject">
+                            <i class="fas fa-tag"></i>
+                            ТЕМА:
+                        </label>
+                        <select id="telegramSubject" name="subject" required>
+                            <option value="">Выберите тему сообщения</option>
+                            <option value="expedition">Предложение экспедиции</option>
+                            <option value="artifact">Информация об артефакте</option>
+                            <option value="research">Научное сотрудничество</option>
+                            <option value="danger">СРОЧНО: Опасность!</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+
+                    <div class="telegram-field full-width">
+                        <label for="telegramMessage">
+                            <i class="fas fa-file-alt"></i>
+                            ТЕКСТ ТЕЛЕГРАММЫ:
+                        </label>
+                        <textarea id="telegramMessage" 
+                                  name="message"
+                                  placeholder="Введите ваше сообщение здесь... Максимальная длина: 250 символов" 
+                                  maxlength="250"
+                                  required></textarea>
+                        <div class="char-counter">
+                            <span id="charCount">0</span> / 250 символов
+                        </div>
+                    </div>
+
+                    <div class="telegram-cipher">
+                        <div class="cipher-header">
+                            <i class="fas fa-lock"></i>
+                            СЕКРЕТНЫЙ ШИФР (опционально)
+                        </div>
+                        <div class="cipher-inputs">
+                            <input type="text" id="cipher1" name="cipher1" placeholder="A1" maxlength="2">
+                            <input type="text" id="cipher2" name="cipher2" placeholder="B2" maxlength="2">
+                            <input type="text" id="cipher3" name="cipher3" placeholder="C3" maxlength="2">
+                            <div class="cipher-hint">
+                                Подсказка: координаты первой экспедиции
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="telegram-buttons">
+                        <button type="submit" class="telegram-btn send-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            ОТПРАВИТЬ ТЕЛЕГРАММУ
+                        </button>
+                        <button type="button" class="telegram-btn clear-btn" onclick="window.clearTelegram()">
+                            <i class="fas fa-eraser"></i>
+                            ОЧИСТИТЬ
+                        </button>
+                        <button type="button" class="telegram-btn cipher-btn" onclick="window.showCipherHint()">
+                            <i class="fas fa-question-circle"></i>
+                            ПОДСКАЗКА ПО ШИФРУ
+                        </button>
+                    </div>
+                </div>
+
+                <div class="telegram-footer">
+                    <div class="telegram-note">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        ВНИМАНИЕ: Все сообщения проходят проверку службой безопасности.
+                        Ложные сообщения преследуются по закону.
+                    </div>
+                    <div class="telegram-status" id="telegramStatus">
+                        Готово к отправке
+                    </div>
+                </div>
+            </form>
+
+            <div class="telegram-sidebar">
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-info-circle"></i> ИНСТРУКЦИИ</h3>
+                    <ul>
+                        <li>Телеграммы отправляются через защищённый канал</li>
+                        <li>Ответ может занять от 2 до 8 недель</li>
+                        <li>Срочные сообщения помечайте темой "Опасность!"</li>
+                        <li>Шифр используется для проверки подлинности</li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-history"></i> ПОСЛЕДНИЕ ОТПРАВКИ</h3>
+                    <div class="recent-telegrams" id="recentTelegrams">
+                        <!-- Будут добавлены через JS -->
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-map-marked-alt"></i> ТЕКУЩЕЕ МЕСТОПОЛОЖЕНИЕ</h3>
+                    <div class="current-location">
+                        <div class="location-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <div class="location-info">
+                            <div class="location-name">АМАЗОНИЯ</div>
+                            <div class="location-date">Октябрь 1957</div>
+                            <div class="location-status">В экспедиции</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер архива -->
+    <footer class="archive-footer" id="footer">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div class="footer-info">
+                <p><strong>Официальный архив экспедиций Индианы Джонса</strong></p>
+                <p>Дневник ведётся с 1935 года. Последнее обновление: май 1957.</p>
+                <p>Все материалы засекречены согласно Протоколу 51 и доступны только лицам с уровнем доступа "ИСКАТЕЛЬ" и выше.</p>
+                <p style="margin-top: 30px; font-size: 1.1rem; color: rgba(212, 175, 55, 0.9);">
+                    Маршалл-колледж • Кафедра археологии • Бедфорд, Коннектикут
+                </p>
+            </div>
+
+            <div class="footer-seal" id="topSecretSeal">
+                <div class="seal-text">
+                    СОВЕРШЕННО<br>
+                    СЕКРЕТНО<br>
+                    ДОСТУП ОГРАНИЧЕН
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                © 1957 Генри "Индиана" Джонс Младший. Все права защищены.<br>
+                Архив обновляется по мере завершения экспедиций
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для артефактов -->
+    <div id="artifactModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 3000; align-items: center; justify-content: center; padding: 20px;">
+        <!-- Содержимое модального окна -->
+    </div>
+
+    <!-- Модальное окно для секретного доступа -->
+    <div id="secretModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 3000; align-items: center; justify-content: center;">
+        <!-- Содержимое секретного модального окна -->
+    </div>
+
+    <!-- Подключаем JavaScript файлы -->
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/diary.js"></script>
+    <script src="js/films.js"></script>
+    <script src="js/equipment.js"></script>
+    <script src="js/artifacts.js"></script>
+    <script src="js/telegram.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/secret.js"></script>
+</body>
+</html>
