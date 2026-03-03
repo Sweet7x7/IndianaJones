@@ -115,7 +115,7 @@ function createArtifactCard(artifact, index) {
         </div>
         <div class="film-content">
             <p class="film-synopsis">
-                <i>Нажмите для подробной информации...</i>
+                <i></i>
             </p>
             <div class="film-details">
                 <div class="film-director">${getArtifactDetails(artifact)}</div>
@@ -231,7 +231,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1936 года, руководство: Генри Джонс",
             status: "В музее Перу",
             dimensions: "Высота: 25 см",
-            image: "https://images.unsplash.com/photo-1574980362851-e21c0224e464?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+            image: "golden-idol.webp"
         },
         {
             id: 1,
@@ -244,7 +244,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Приобретён в 1936, использован для экспедиции в Египет",
             status: "Частная коллекция",
             dimensions: "Диаметр: 8 см",
-            image: "https://images.unsplash.com/photo-1587332066582-21dd50b75c1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+            image: "medallion-of-ra.webp"
         },
         {
             id: 2,
@@ -257,7 +257,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1938 года с отцом, Генри Джонсом Старшим",
             status: "Музей Ватикана",
             dimensions: "Вес: 2 кг | Длина: 40 см",
-            image: "https://images.unsplash.com/photo-1562683002-a4a9d0b8b128?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+            image: "cross-cornado.webp"
         },
         {
             id: 3,
@@ -270,7 +270,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1935 года, сопровождение: Уилли Скотт",
             status: "Возвращены законным владельцам",
             dimensions: "Размер каждого: 5×5×5 см",
-            image: "https://images.unsplash.com/photo-1536922645426-5d658ab49b81?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+            image: "shankhara-stones.webp"
         },
         {
             id: 4,
@@ -283,11 +283,11 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1957 года, участие: Ирина Спалько",
             status: "Возвращён создателям",
             dimensions: "Натуральный размер черепа",
-            image: "https://images.unsplash.com/photo-1576086961372-5d6c4fbcb2c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+            image: "crystal-skull.webp"
         },
         {
             id: 5,
-            title: "ГЛАЗ СОКОЛА",
+            title: "СВЯТОЙ ГРААЛЬ",
             year: "1937",
             rating: "★ ★ ★ ☆ ☆",
             details: "Династия: Мин | Материал: нефрит и серебро",
@@ -296,7 +296,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Частная экспедиция 1937 года",
             status: "Частная коллекция (продано)",
             dimensions: "Диаметр: 6 см",
-            image: "https://images.unsplash.com/photo-1562771242174-1bd70b1d4c90?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+            image: "holy-grail.webp"
         }
     ];
     
@@ -422,3 +422,4 @@ function initArtifactsAnimations() {
 // Экспортируем функцию для main.js
 
 window.initArtifacts = initArtifacts;
+
