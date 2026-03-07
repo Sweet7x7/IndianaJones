@@ -14,7 +14,7 @@ function initArtifacts() {
             expedition: "Экспедиция 1936 года, руководство: Генри Джонс",
             status: "В музее Перу",
             dimensions: "Высота: 25 см",
-            image: "golden-idol.webp"
+            image: "images/golden-idol.webp"
         },
         {
             id: 1,
@@ -27,7 +27,7 @@ function initArtifacts() {
             expedition: "Приобретён в 1936, использован для экспедиции в Египет",
             status: "Частная коллекция",
             dimensions: "Диаметр: 8 см",
-            image: "medallion-of-ra.webp"
+            image: "images/medallion-of-ra.webp"
         },
         {
             id: 2,
@@ -40,7 +40,7 @@ function initArtifacts() {
             expedition: "Экспедиция 1938 года с отцом, Генри Джонсом Старшим",
             status: "Музей Ватикана",
             dimensions: "Вес: 2 кг | Длина: 40 см",
-            image: "cross-cornado.webp"
+            image: "images/cross-cornado.webp"
         },
         {
             id: 3,
@@ -53,7 +53,7 @@ function initArtifacts() {
             expedition: "Экспедиция 1935 года, сопровождение: Уилли Скотт",
             status: "Возвращены законным владельцам",
             dimensions: "Размер каждого: 5×5×5 см",
-            image: "shankhara-stones.webp"
+            image: "images/shankhara-stones.webp"
         },
         {
             id: 4,
@@ -66,7 +66,7 @@ function initArtifacts() {
             expedition: "Экспедиция 1957 года, участие: Ирина Спалько",
             status: "Возвращён создателям",
             dimensions: "Натуральный размер черепа",
-            image: "crystal-skull.webp"
+            image: "images/crystal-skull.webp"
         },
         {
             id: 5,
@@ -79,7 +79,7 @@ function initArtifacts() {
             expedition: "Частная экспедиция 1937 года",
             status: "Частная коллекция (продано)",
             dimensions: "Диаметр: 6 см",
-            image: "holy-grail.webp"
+            image: "images/holy-grail.webp"
         }
     ];
 
@@ -231,7 +231,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1936 года, руководство: Генри Джонс",
             status: "В музее Перу",
             dimensions: "Высота: 25 см",
-            image: "golden-idol.webp"
+            image: "images/golden-idol.webp"
         },
         {
             id: 1,
@@ -244,7 +244,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Приобретён в 1936, использован для экспедиции в Египет",
             status: "Частная коллекция",
             dimensions: "Диаметр: 8 см",
-            image: "medallion-of-ra.webp"
+            image: "images/medallion-of-ra.webp"
         },
         {
             id: 2,
@@ -257,7 +257,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1938 года с отцом, Генри Джонсом Старшим",
             status: "Музей Ватикана",
             dimensions: "Вес: 2 кг | Длина: 40 см",
-            image: "cross-cornado.webp"
+            image: "images/cross-cornado.webp"
         },
         {
             id: 3,
@@ -270,7 +270,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1935 года, сопровождение: Уилли Скотт",
             status: "Возвращены законным владельцам",
             dimensions: "Размер каждого: 5×5×5 см",
-            image: "shankhara-stones.webp"
+            image: "images/shankhara-stones.webp"
         },
         {
             id: 4,
@@ -283,7 +283,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Экспедиция 1957 года, участие: Ирина Спалько",
             status: "Возвращён создателям",
             dimensions: "Натуральный размер черепа",
-            image: "crystal-skull.webp"
+            image: "images/crystal-skull.webp"
         },
         {
             id: 5,
@@ -296,7 +296,7 @@ window.openArtifactModal = function(artifactId) {
             expedition: "Частная экспедиция 1937 года",
             status: "Частная коллекция (продано)",
             dimensions: "Диаметр: 6 см",
-            image: "holy-grail.webp"
+            image: "images/holy-grail.webp"
         }
     ];
     
@@ -422,4 +422,5 @@ function initArtifactsAnimations() {
 // Экспортируем функцию для main.js
 
 window.initArtifacts = initArtifacts;
+
 
